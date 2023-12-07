@@ -1,6 +1,10 @@
 Problem list:
  - [1. Reversing a String](#1-Reversing-a-String)
- - 
+ - [2. Finding the Largest Number in an Array](#2-Finding-the-Largest-Number-in-an-Array)
+ - [3. Checking for Palindromes](#3-Checking-for-Palindromes)
+ - [4. Counting the Number of Words in a Sentence](#4-Counting-the-Number-of-Words-in-a-Sentence)
+ - [5. Removing Duplicates from an Array](#5-Removing-Duplicates-from-an-Array)
+   
 
 
 
