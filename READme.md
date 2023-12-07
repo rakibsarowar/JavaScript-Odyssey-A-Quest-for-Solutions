@@ -97,3 +97,18 @@ const count = sentence => {
 console.log(count("i love you"))
 
 ```
+<br>
+
+## Removing Duplicates from an Array
+Problem: Write a function that can remove duplicates from an array. <br>
+
+```
+function removeDuplicates(arr) {
+  return [...new Set(arr)];
+}
+
+// Example usage:
+const array = [1, 2, 2, 3, 4, 4, 5];
+console.log(removeDuplicates(array)); // Output: [1, 2, 3, 4, 5]
+
+```
