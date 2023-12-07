@@ -1,3 +1,8 @@
+Problem list:
+ - [1. Reversing a String](#1-Reversing-a-String)
+ - 
+
+
 
 ## 1. Reversing a String
 Problem: Write a function that reverses a given string.
@@ -99,7 +104,7 @@ console.log(count("i love you"))
 ```
 <br>
 
-## Removing Duplicates from an Array
+## 5. Removing Duplicates from an Array
 Problem: Write a function that can remove duplicates from an array. <br>
 
 ```
