@@ -110,8 +110,11 @@ console.log(count("i love you"))
 
 ## 5. Removing Duplicates from an Array
 Problem: Write a function that can remove duplicates from an array. <br>
+<br>
 
 ```
+//Way01:
+
 function removeDuplicates(arr) {
   return [...new Set(arr)];
 }
@@ -120,4 +123,11 @@ function removeDuplicates(arr) {
 const array = [1, 2, 2, 3, 4, 4, 5];
 console.log(removeDuplicates(array)); // Output: [1, 2, 3, 4, 5]
 
+```
+
+```
+//Way02:
+const array = [1, 2, 2, 3, 4, 4, 5];
+removeDuplicates = array => [...new Set(array)]
+console.log(removeDuplicates(array)); // Output: [1, 2, 3, 4, 5]
 ```
