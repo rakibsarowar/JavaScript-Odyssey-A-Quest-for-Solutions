@@ -4,6 +4,7 @@ Problem list:
  - [3. Checking for Palindromes](#3-Checking-for-Palindromes)
  - [4. Counting the Number of Words in a Sentence](#4-Counting-the-Number-of-Words-in-a-Sentence)
  - [5. Removing Duplicates from an Array](#5-Removing-Duplicates-from-an-Array)
+ - [6. Marge two arrey and remove duplicates from the arey](#6-Marge-two-arrey-and-remove-duplicates-from-the-arey)
    
 
 
@@ -130,4 +131,14 @@ console.log(removeDuplicates(array)); // Output: [1, 2, 3, 4, 5]
 const array = [1, 2, 2, 3, 4, 4, 5];
 removeDuplicates = array => [...new Set(array)]
 console.log(removeDuplicates(array)); // Output: [1, 2, 3, 4, 5]
+```
+
+# 6. Marge two arrey and remove duplicates from the arey. 
+
+```
+A = [1,2,2,3,,4,5,5]
+B = [6,7,8,9]
+const AB=A.concat(B)
+const newArrey = [...new Set(AB)]
+console.log(newArrey)
 ```
