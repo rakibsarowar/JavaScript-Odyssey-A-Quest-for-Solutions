@@ -158,3 +158,8 @@ Solution:
 •	`b` holds the original value of `a`, which is `5`. <br>
 Therefore, when you execute `console.log(a, b);`, it will output `6, 5`.
 
+```
+let a = 5;
+let b = a; // Assign the current value of 'a' to 'b'
+a = a + 1; // Increment 'a' by 1
+```
