@@ -149,12 +149,12 @@ let b = a++;
 console.log(a, b);
 ```
 Solution:
-<h4> 1.	`let a = 5;` - It declares a variable a and assigns it the value 5.
+1.	`let a = 5;` - It declares a variable a and assigns it the value 5. <br>
 2.	`let b = a++;` - This line has two parts:
-•	`a++` is a post-increment operation. `a++` means that the current value of `a` (which is `5`) is assigned to `b`, and then `a` is incremented by `1`.
-•	So, after this line executes, b holds the value 5 because the current value of `a` (before incrementing) is assigned to `b`, and `a` gets incremented to `6`.
-3.	`console.log(a, b);` - This prints the values of `a` and `b` to the console.
+•	`a++` is a post-increment operation. `a++` means that the current value of `a` (which is `5`) is assigned to `b`, and then `a` is incremented by `1`. <br>
+•	So, after this line executes, b holds the value 5 because the current value of `a` (before incrementing) is assigned to `b`, and `a` gets incremented to `6`. <br>
+3.	`console.log(a, b);` - This prints the values of `a` and `b` to the console. <br>
 •	`a` now holds the value 6 because it was incremented after the assignment to `b`.
-•	`b` holds the original value of `a`, which is `5`.
+•	`b` holds the original value of `a`, which is `5`. <br>
 Therefore, when you execute `console.log(a, b);`, it will output `6, 5`.
-</h4>
+
