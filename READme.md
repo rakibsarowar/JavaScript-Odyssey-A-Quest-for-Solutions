@@ -5,9 +5,8 @@ Problem list:
  - [4. Counting the Number of Words in a Sentence](#4-Counting-the-Number-of-Words-in-a-Sentence)
  - [5. Removing Duplicates from an Array](#5-Removing-Duplicates-from-an-Array)
  - [6. Marge two arrey and remove duplicates from the arey](#6-Marge-two-arrey-and-remove-duplicates-from-the-arey)
+ - [7. What are the final values of a and b after executing the following code in JavaScript?](#7-what-are-the-final-values-of-a-and-b-after-executing-the-following-code-in-javascript)
    
-
-
 
 ## 1. Reversing a String
 Problem: Write a function that reverses a given string.
@@ -142,3 +141,20 @@ const AB=A.concat(B)
 const newArrey = [...new Set(AB)]
 console.log(newArrey)
 ```
+## 7. What are the final values of a and b after executing the following code in JavaScript?
+
+```
+let a = 5;
+let b = a++;
+console.log(a, b);
+```
+Solution:
+<h4> 1.	`let a = 5;` - It declares a variable a and assigns it the value 5.
+2.	`let b = a++;` - This line has two parts:
+•	`a++` is a post-increment operation. `a++` means that the current value of `a` (which is `5`) is assigned to `b`, and then `a` is incremented by `1`.
+•	So, after this line executes, b holds the value 5 because the current value of `a` (before incrementing) is assigned to `b`, and `a` gets incremented to `6`.
+3.	`console.log(a, b);` - This prints the values of `a` and `b` to the console.
+•	`a` now holds the value 6 because it was incremented after the assignment to `b`.
+•	`b` holds the original value of `a`, which is `5`.
+Therefore, when you execute `console.log(a, b);`, it will output `6, 5`.
+</h4>
